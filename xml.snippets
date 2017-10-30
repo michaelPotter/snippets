@@ -1,0 +1,11 @@
+snippet string "string tag" b
+<string name="${1:name}">${2:value}</string>
+endsnippet
+
+snippet view "view tag" b
+<${1:tag}
+	android:layout_width="${2:wrap_content}"
+	android:layout_height="${3:wrap_content}"
+	${4:}
+</$1>
+endsnippet
